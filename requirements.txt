@@ -1,0 +1,16 @@
+# Agentic Debugger Dependencies
+
+# LangChain core
+langchain>=0.3.0
+langgraph>=0.2.0
+
+# HuggingFace integration (open-source LLMs)
+langchain-huggingface>=0.1.0
+huggingface_hub>=0.20.0
+
+# Environment variables & SSL
+python-dotenv>=1.0.0
+certifi>=2023.0.0
+
+# Optional: OpenAI (if you want to switch back)
+# langchain-openai>=0.2.0
